@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: string
         run: echo "welcome to Devopshint"
-      - name: multiline script
+      - name: multiline scripts
         run: |
           node -v
           npm -v
