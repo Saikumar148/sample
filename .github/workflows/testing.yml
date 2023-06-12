@@ -1,0 +1,20 @@
+
+
+name: Build and Push Image to ECR
+
+ 
+
+on:
+
+  push:
+
+    branches:
+
+      - 'main'
+
+    
+jobs:
+
+  call-workflow:
+
+    uses: Saikumar148/sample/.github/workflows/testing.yml@main
